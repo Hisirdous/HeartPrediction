@@ -94,3 +94,13 @@ target/
 
 # exclude data from source control by default
 # /data/
+# Conda environment
+.conda/
+
+# Jupyter export
+*.nbconvert.ipynb
+
+# Trained models (bổ sung an toàn)
+*.pkl
+*.h5
+*.pt
