@@ -6,17 +6,9 @@ Dự án AI sử dụng các thuật toán học máy để dự đoán khả n�
 git clone https://github.com/Hisirdous/HeartPrediction.git
 cd HeartPrediction
 ```
-2. Tạo môi trường ảo
+2. Tạo môi trường ảo với Conda
 ```
-Với Conda:
-conda env create -f environment.yml
-conda activate heartpred
-
-Hoặc dùng pip:
-python -m venv venv
-.\venv\Scripts\activate       # Windows
-source venv/bin/activate     # Mac/Linux
-pip install -r requirements.txt
+Sau khi tạo xong gõ  lệnh "pip install -r requirements.txt" để cài các thư viện cần thiết 
 ```
 3. Train model
 ```
